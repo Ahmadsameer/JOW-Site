@@ -400,6 +400,12 @@
      }
  }
 
+ @media only screen and (max-width:767px) {
+    #dashboard{
+        padding-top: 0 !important;
+    }
+ }
+
  .container:after {
      content   : "\0020";
      display   : block;
